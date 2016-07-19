@@ -1,0 +1,17 @@
+Working On Projects Together
+
+We use a GitHub flow to collaborate on projects. It goes like this:
+Master is a clean, working branch that’s ready to be deployed at any time.
+When you’re ready to work on a new feature, make a new branch off of `master` and give it a name that reflects the work that will be contained in that branch(ie: new-button-styles)
+Use descriptive commit messages to commit to your branch locally. Push your commits to the server often.
+When you get stuck, are ready to merge master, or just want to start a conversation about the work in your branch, open a pull request.
+
+Making a Pull Request
+
+	Pull Requests are a lightweight way to integrate code review into our process. It’s nice to make pull requests even for small changes because it builds the culture of communication within our team.
+
+	You can (and should!) open a pull request any time you’re looking for feedback. But If you’re opening a pull request because you think your code is ready to be merged into master, take a moment to make sure your code is as easy for your colleagues to read as possible. This means removing any debuggers or unused code and making sure your commit history is useful.
+
+A useful commit message provides context around your commit to both your fellow developers, and your future self. Commit messages like “Polish” and “Fixed bug” don’t provide context so they aren’t useful to have in master, before you open your pull request is a great opportunity to edit or squash these kinds of commits.
+
+	When you open a PR, it’s helpful to attach a message to establish clarity about the kind of feedback you’re looking to receive. Think about what the feature is, why you did the work and who you’re hoping to receive feedback from. 
